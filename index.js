@@ -13,8 +13,8 @@ var CronJob = require('cron').CronJob;
       // 06,08 22 * * 7,1-4
 
         login({
-            email:"rajeshkumarmarotu@gmail.com",
-            password:"haira20"
+            email:"",
+            password:""
                },function callback(error,api){
                   if (error) return console.error(error);
                   var json = JSON.parse(require('fs').readFileSync('userids.json', 'utf8'));
